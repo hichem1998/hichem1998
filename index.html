@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قوائم منسدلة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 300px;
+        }
+        select {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        label {
+            font-size: 18px;
+            margin-bottom: 8px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="wilaya-select">اختر الولاية :</label>
+        <select id="wilaya-select" name="extra_fields[custom_field_XN4J2h4CgEqvXHw2]">
+            <option value="">اختر الولاية</option>
+            <option value="1">أدرار</option>
+            <option value="2">الشلف</option>
+            <option value="3">الأغواط</option>
+            <option value="4">أم البواقي</option>
+            <option value="5">باتنة</option>
+            <option value="6">بجاية</option>
+            <option value="7">بسكرة</option>
+            <option value="8">بشار</option>
+            <option value="9">البليدة</option>
+            <option value="10">البويرة</option>
+            <option value="11">تمنراست</option>
+            <option value="12">تبسة</option>
+            <option value="13">تلمسان</option>
+            <option value="14">تيارت</option>
+            <option value="15">تيزي وزو</option>
+            <option value="16">الجزائر</option>
+            <option value="17">الجلفة</option>
+            <option value="18">جيجل</option>
+            <option value="19">سطيف</option>
+            <option value="20">سعيدة</option>
+            <option value="21">سكيكدة</option>
+            <option value="22">سيدي بلعباس</option>
+            <option value="23">عنابة</option>
+            <option value="24">قالمة</option>
+            <option value="25">قسنطينة</option>
+            <option value="26">المدية</option>
+            <option value="27">مستغانم</option>
+            <option value="28">المسيلة</option>
+            <option value="29">معسكر</option>
+            <option value="30">ورقلة</option>
+            <option value="31">وهران</option>
+            <option value="32">البيض</option>
+            <option value="33">إليزي</option>
+            <option value="34">برج بوعريريج</option>
+            <option value="35">بومرداس</option>
+            <option value="36">الطارف</option>
+            <option value="37">تندوف</option>
+            <option value="38">تيسمسيلت</option>
+            <option value="39">الوادي</option>
+            <option value="40">خنشلة</option>
+            <option value="41">سوق أهراس</option>
+            <option value="42">تيبازة</option>
+            <option value="43">ميلة</option>
+            <option value="44">عين الدفلى</option>
+            <option value="45">النعامة</option>
+            <option value="46">عين تموشنت</option>
+            <option value="47">غرداية</option>
+            <option value="48">غليزان</option>
+            <option value="49">تميمون</option>
+            <option value="50">برج بادجي مختار</option>
+            <option value="51">أولاد جلال</option>
+            <option value="52">بني عباس</option>
+            <option value="53">إن صالح</option>
+            <option value="54">إن قزام</option>
+            <option value="55">تقرت</option>
+            <option value="56">جانت</option>
+            <option value="57">المغير</option>
+            <option value="58">المنيعة</option>
+        </select>
+        
+        <label for="municipality-select">البلديات :</label>
+        <select id="municipality-select" name="extra_fields[custom_field_nX5TZeoVN4sYiT7T]">
+            <option value="">اختر البلدية</option>
+            <!-- Municipalities will be dynamically added based on the selected wilaya -->
+        </select>
+    </div>
+
+
+</body>
+</html>
